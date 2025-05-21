@@ -1,0 +1,277 @@
+/*Used in all pages*/
+body{
+    background-color: seagreen;
+    color: black;
+}
+.header {
+    background-color: steelblue;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+    font-size: xx-large;
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+/*Style toggle button*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*Landing page*/
+.landing-img{
+    width: 600px;
+    height: 750px;
+    border-radius: 25px;
+}
+.landing-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.landing-text {
+   display: flex;
+   background-color: white;
+   border-radius: 25px;
+   padding: 20px;
+   width: 600px;
+   flex-direction: column;
+   justify-content: center;
+}
+.landing-title {
+   display: flex;
+   font-size: 20px;
+   justify-content: center;
+   align-items: center;
+}
+.landing-html {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 650px;
+}
+.html-link {
+    justify-content: center;
+}
+
+/*Technical page*/
+.technical-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+}
+.technical-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.technical-project1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    width: 1000px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.technical-text1 {
+    margin-left: 25px;
+}
+.technical-project2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    width: 1000px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.technical-text2 {
+    margin-left: 25px;
+}
+.technical-title {
+    font-size: 20px;
+}
+
+/*Qualifications page*/
+.qualifications-img{
+    width:550px;
+    height:700px;
+    border-radius: 25px;
+    padding: 20px;
+}
+.qualifications-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.qualifications-left {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+.qualifications-skills {
+   background-color: white;
+   border-radius: 25px;
+   padding: 20px;
+   height: 400px;
+   width: 600px;
+   justify-content: center;
+   margin-bottom: 25px;
+}
+.qualifications-interests {
+   background-color: white;
+   border-radius: 25px;
+   padding: 20px;
+   height: 450px;
+   width: 600px;
+   justify-content: center;
+}
+.qualifications-right {
+   background-color: white;
+   border-radius: 25px;
+   padding: 20px;
+   height: 800px;
+   width: 600px;
+   justify-content: center;
+   margin-bottom: 25px; 
+}
+.qualifications-facts {
+   background-color: white;
+   border-radius: 25px;
+   padding: 20px;
+   height: 300px;
+   width: 600px;
+   justify-content: center;
+}
+.qualifications-title {
+   display: flex;
+   font-size: 20px;
+   justify-content: center;
+   align-items: center;
+}
+
+/*Service page*/
+.service-img{
+    height: 250px;
+    width: 300px;
+    border-radius: 25px;
+}
+.service-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.service-title {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+ }
+.service-project1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    width: 300px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+    margin-right: 100px;
+}
+.service-image1 {
+    margin-top: 250px;
+}
+.service-project2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    width: 300px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+}
+.service-image2 {
+    margin-top: 250px;
+}
+.service-project3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    width: 300px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 100px;
+}
+.service-image3 {
+    margin-top: 250px;
+}
+
+/*Links to other pages*/
+.Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.home {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.technical {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.qualifications {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.services {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.ai {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}

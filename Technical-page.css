@@ -1,0 +1,100 @@
+body{
+    background-color: seagreen;
+    color: black;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+}
+.header {
+    background-color: steelblue;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+    font-size: xx-large;
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.project1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    width: 1000px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.text1 {
+    margin-left: 25px;
+}
+.project2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    width: 1000px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.text2 {
+    margin-left: 25px;
+}
+.title {
+    font-size: 20px;
+}
+.Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.home {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.qualifications {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.services {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.ai {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}

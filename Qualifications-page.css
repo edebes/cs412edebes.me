@@ -1,0 +1,116 @@
+body{
+    background-color: seagreen;
+    color: black;
+}
+img{
+    width:550px;
+    height:700px;
+    border-radius: 25px;
+    padding: 20px;
+}
+.header {
+    background-color: steelblue;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+    font-size: xx-large;
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.left {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+.skills {
+   background-color: white;
+   border-radius: 25px;
+   padding: 20px;
+   height: 400px;
+   width: 600px;
+   justify-content: center;
+   margin-bottom: 25px;
+}
+.interests {
+   background-color: white;
+   border-radius: 25px;
+   padding: 20px;
+   height: 450px;
+   width: 600px;
+   justify-content: center;
+}
+.right {
+   background-color: white;
+   border-radius: 25px;
+   padding: 20px;
+   height: 800px;
+   width: 600px;
+   justify-content: center;
+   margin-bottom: 25px; 
+}
+.facts {
+   background-color: white;
+   border-radius: 25px;
+   padding: 20px;
+   height: 300px;
+   width: 600px;
+   justify-content: center;
+}
+.title {
+   display: flex;
+   font-size: 20px;
+   justify-content: center;
+   align-items: center;
+}
+.Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.home {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.technical {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.services {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.ai {
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
